@@ -11,16 +11,27 @@ colorBlue.addEventListener("click", () =>{
 
 colorRed.addEventListener("click", () =>{
     const block = document.querySelector(".block");
+    
+    if(!block.classList.contains("red")){
+        block.classList.add("addRed");
+        console.log("Et alors");
+    }
 
-    if (block.classList === )
-    block.classList.add("addRed");
+    // block.classList.add("addRed");
 })
 
 colorgreen.addEventListener("click", () =>{
     const block = document.querySelector(".block");
     block.classList.add("addGreen");
 })
-colorRemove .addEventListener("click", () =>{
+// colorRemove.addEventListener("click", () =>{
+//     const block = document.querySelector(".block");
+//     block.classList.remove(className);
+// })
+
+colorRemove.addEventListener("click", () => {
     const block = document.querySelector(".block");
-    block.classList.remove();
+    block.classList.remove("addBlue");
+    block.classList.remove("addRed");
+    block.classList.remove("addGreen");
 })
