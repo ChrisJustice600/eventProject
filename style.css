@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.block {
+    width: 160px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 2rem auto;
+}
+.size {
+    width: 70px;
+    margin: auto;
+}
+.addBlue {
+    background-color: blue;
+}
+.addRed{
+    background-color: red;
+}
+.addGreen {
+    background-color: green;
+}
